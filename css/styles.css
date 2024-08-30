@@ -1,0 +1,45 @@
+/* ---------------------COMMON STYLES------------------------- */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+/* ---------------------------------------------------------------- */
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    transition: transform 0.3s ease; 
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); 
+}
